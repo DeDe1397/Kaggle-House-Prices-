@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## プロジェクト概要
 - **目的**: 住宅価格（SalePrice）の予測
 - **使用データ**: Kaggle House Prices データセット  
-- **アプローチ**:
+- **アプローチ**:(Notebookに各段階のipynbを格納）
 - 1. データ解釈
   2. ベースライン作成
      - LinearRegression
