@@ -28,7 +28,7 @@ pip install -r requirements.txt
   2. ベースライン作成
      - LinearRegression
      - LightGBM  
-- 3. モデル解釈として SHAP を用いて重要特徴量を確認
+  3. モデル解釈として SHAP を用いて重要特徴量を確認
   4. 特徴量エンジニアリング（TotalSF, OverallQual × GrLivArea など）
   5. 欠損値の論理的補完（Garage, Basement, LotFrontage など）
   6. 外れ値の除去（GrLivArea > 4000 & SalePrice < 300000）
