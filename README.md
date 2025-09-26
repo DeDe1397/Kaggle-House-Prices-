@@ -18,6 +18,7 @@ Kaggle「House Prices - Advanced Regression Techniques」コンペの学習コ�
 依存ライブラリは `requirements.txt` にまとめています。
 ```bash
 pip install -r requirements.txt
+```
 
 ## プロジェクト概要
 - **目的**: 住宅価格（SalePrice）の予測
@@ -52,3 +53,4 @@ pip install -r requirements.txt
 
 ```bash
 jupyter notebook Final_ensemble.ipynb
+```
