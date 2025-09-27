@@ -7,7 +7,7 @@ Kaggle「House Prices - Advanced Regression Techniques」コンペの学習コ�
 - **住宅価格の精度予測**（Kaggle House Prices データセット）
 - **データ分析**: 欠損値処理・外れ値除去・特徴量エンジニアリング
 - **モデリング**: LightGBM・Ridge・Lasso を用いたアンサンブル
-- **成果**: CV RMSLE 0.113 / Kaggle LB 0.128 → 上位23%
+- **成果**: CV RMSLE 0.115 / Kaggle LB 0.131
 
 ## 環境
 - Python 3.12.7
@@ -40,12 +40,11 @@ pip install -r requirements.txt
 
 ## モデル精度
 - **Cross Validation (CV, KFold 5分割)**  
-  - LinearRegression RMSLE: 0.23
-  - LightGBM RMSLE: 0.23  
-  - **Ensemble RMSLE: 0.1130**
+  - LinearRegression RMSLE: 0.230
+  - LightGBM RMSLE: 0.230  
+  - **Ensemble RMSLE: 0.115**
 - **Kaggle Public LB (Testデータ)**  
-  - Score: **0.12843**
-（2025年9月26日時点で上位23％達成）
+  - Score: **0.131**
 
 ## 🚀 使い方
 1. Kaggle から `train.csv` と `test.csv` をダウンロードして、このリポジトリ直下に配置
