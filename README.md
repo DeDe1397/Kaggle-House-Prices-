@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## プロジェクト概要
 - **目的**: 住宅価格（SalePrice）の予測
 - **使用データ**: Kaggle House Prices データセット  
-- **アプローチ**:(Notebookに各段階のipynbを格納）
+- **アプローチ**:(Notebookに主なアプローチ段階のipynbを格納）
 - 1. データ解釈
   2. ベースライン作成
      - LinearRegression
@@ -52,5 +52,5 @@ pip install -r requirements.txt
 2. 実行:
 
 ```bash
-jupyter notebook Final_ensemble.ipynb
+jupyter notebook Final_Ensemble_Submission.ipynb
 ```
