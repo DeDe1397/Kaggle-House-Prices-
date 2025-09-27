@@ -51,5 +51,5 @@ pip install -r requirements.txt
 2. 実行:
 
 ```bash
-jupyter notebook Final_Ensemble_Submission.ipynb
+jupyter notebook Final_Ensemble_Model.ipynb
 ```
